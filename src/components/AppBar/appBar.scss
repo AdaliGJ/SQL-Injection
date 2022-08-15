@@ -1,0 +1,40 @@
+$verde: #0ab200;
+$morado: #230043;
+$blanco: #ffffff;
+$gris: #120e15;
+
+#icon{
+    color: $verde;
+}
+
+#appbar_button{
+    
+    margin-right: 0vw;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: $morado;
+    float: none;
+   // width: 35vw;
+}
+
+#appbar{
+    color: $blanco;
+    background-color: $gris;
+    overflow-x: scroll;
+}
+
+#appbar::-webkit-scrollbar {
+    display: none;
+  }
+
+#info_button, #home_button,  #news_button, #contact_button, #siout, #nolog{
+    color: $verde;
+    background-color: transparent;
+    border-color: $morado;
+    font-size: 0.8vw;
+}
+
+#noout, #silog, #noinfo_button{
+    display: none;
+}
